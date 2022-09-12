@@ -7,5 +7,5 @@ length = int(input ("What is the length (in feet) of the classroom? "))
 area = width * length
 desks = area // 25
 
-print("Room Area: " + str(area) + " sqft")
-print("Number of desks needed: " + str(desks))
+print("Room Area:", area, "sqft")
+print("Number of desks needed:", desks)
