@@ -15,7 +15,7 @@ taxOne = (priceOne + laborOne) * 0.0925
 totalOne = priceOne + round(laborOne, 2) + round(taxOne, 2)
 
 print("\nClassroom Order #1 Summary:")
-print("Room area: " + str(areaOne) + " sqft")
+print("Room area:", areaOne, "sqft")
 print("Desk price: ${:.2f}".format(priceOne))
 print("Labor cost: ${:.2f}".format(laborOne))
 print("Sales tax: ${:.2f}".format(taxOne))
@@ -36,7 +36,7 @@ taxTwo = (priceTwo + laborTwo) * 0.0925
 totalTwo = priceTwo + round(laborTwo, 2) + round(taxTwo, 2)
 
 print("\nClassroom Order #2 Summary:")
-print("Room area: " + str(areaTwo) + " sqft")
+print("Room area:", areaTwo, "sqft")
 print("Desk price: ${:.2f}".format(priceTwo))
 print("Labor cost: ${:.2f}".format(laborTwo))
 print("Sales tax: ${:.2f}".format(taxTwo))
